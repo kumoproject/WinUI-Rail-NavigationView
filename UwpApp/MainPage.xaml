@@ -1,0 +1,48 @@
+<Page
+    x:Class="UwpApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:UwpApp"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <muxc:NavigationView
+            x:Name="NavView"
+            IsBackButtonVisible="Collapsed"
+            IsPaneToggleButtonVisible="False"
+            PaneDisplayMode="LeftCompact"
+            SelectionChanged="NavView_SelectionChanged"
+            Style="{StaticResource RailNavigationViewStyle}">
+
+            <muxc:NavigationView.MenuItems>
+                <muxc:NavigationViewItem Content="Home" Icon="Home" Tag="Home" />
+                <muxc:NavigationViewItem Content="Gallery" Icon="Pictures" Tag="Gallery" />
+                <muxc:NavigationViewItem Content="Models" Icon="Library" Tag="Models" />
+            </muxc:NavigationView.MenuItems>
+
+            <muxc:NavigationView.FooterMenuItems>
+                <muxc:NavigationViewItem Content="Settings" Icon="Setting" Tag="Settings" />
+            </muxc:NavigationView.FooterMenuItems>
+
+            <muxc:NavigationView.Content>
+                <Grid Padding="40,32">
+                    <StackPanel Spacing="12">
+                        <TextBlock
+                            x:Name="PageTitle"
+                            FontSize="28"
+                            FontWeight="SemiBold"
+                            Text="Home" />
+                        <TextBlock
+                            MaxWidth="560"
+                            Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+                            Text="This UWP demo loads CustomNavigationViewStyle.xaml from the Kumo.Uwp.NavigationView.RailStyle library and applies RailNavigationViewStyle directly." />
+                    </StackPanel>
+                </Grid>
+            </muxc:NavigationView.Content>
+        </muxc:NavigationView>
+    </Grid>
+</Page>
