@@ -4,7 +4,7 @@
 
 using Windows.UI.Xaml;
 
-namespace Kumo.Uwp.NavigationView.RailStyle.Helpers;
+namespace Kumo.WinUI.NavigationView.RailStyle.Helpers;
 
 public static class NavItemIconHelper
 {

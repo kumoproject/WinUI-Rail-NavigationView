@@ -19,7 +19,7 @@ Apply the style explicitly:
 <muxc:NavigationView Style="{StaticResource RailNavigationViewStyle}" />
 ```
 
-Optional item helpers live in `Kumo.Uwp.NavigationView.RailStyle.Helpers.NavItemIconHelper`.
+Optional item helpers live in `Kumo.WinUI.NavigationView.RailStyle.Helpers.NavItemIconHelper`.
 
 ## Source Notice
 

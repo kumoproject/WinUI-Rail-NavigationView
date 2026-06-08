@@ -4,9 +4,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:animations="using:CommunityToolkit.WinUI.Animations"
     xmlns:controls="using:Microsoft.UI.Xaml.Controls"
-    xmlns:helpers="using:Kumo.Uwp.NavigationView.RailStyle.Helpers"
+    xmlns:helpers="using:Kumo.WinUI.NavigationView.RailStyle.Helpers"
     xmlns:primitives="using:Microsoft.UI.Xaml.Controls.Primitives"
-    xmlns:local="using:Kumo.Uwp.NavigationView.RailStyle"
     xmlns:ui="using:CommunityToolkit.WinUI">
 
     <ResourceDictionary.ThemeDictionaries>

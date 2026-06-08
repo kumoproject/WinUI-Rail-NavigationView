@@ -2,6 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net10.0-windows10.0.26100.0</TargetFramework>
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+    <RootNamespace>Kumo.WinUI.NavigationView.RailStyle</RootNamespace>
     <Nullable>enable</Nullable>
     <UseUwp>true</UseUwp>
     <DefaultLanguage>en-US</DefaultLanguage>
@@ -9,6 +10,7 @@
     <DisableRuntimeMarshalling>true</DisableRuntimeMarshalling>
     <IsPackable>true</IsPackable>
     <PackageId>Kumo.Uwp.NavigationView.RailStyle</PackageId>
+    <Version>1.0.0</Version>
     <Title>Kumo UWP NavigationView Rail Style</Title>
     <Authors>Kumo</Authors>
     <Description>Rail-style NavigationView templates and helper attached properties for UWP with WinUI 2.</Description>
