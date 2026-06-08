@@ -3,7 +3,7 @@ using Windows.UI.Xaml;
 
 namespace Kumo.WinUI.NavigationView.RailStyle;
 
-public sealed class RailNavigationViewResources : ResourceDictionary
+public sealed partial class RailNavigationViewResources : ResourceDictionary
 {
     public RailNavigationViewResources()
     {

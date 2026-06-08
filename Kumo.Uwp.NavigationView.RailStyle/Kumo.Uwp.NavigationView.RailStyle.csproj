@@ -10,12 +10,14 @@
     <DisableRuntimeMarshalling>true</DisableRuntimeMarshalling>
     <IsPackable>true</IsPackable>
     <PackageId>Kumo.Uwp.NavigationView.RailStyle</PackageId>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
     <Title>Kumo UWP NavigationView Rail Style</Title>
     <Authors>Kumo</Authors>
     <Description>Rail-style NavigationView templates and helper attached properties for UWP with WinUI 2.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <TargetsForTfmSpecificContentInPackage>$(TargetsForTfmSpecificContentInPackage);AddRailStyleXamlPackageFiles</TargetsForTfmSpecificContentInPackage>
   </PropertyGroup>
   <ItemGroup>
