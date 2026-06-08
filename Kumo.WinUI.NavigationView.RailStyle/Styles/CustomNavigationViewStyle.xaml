@@ -330,7 +330,7 @@
                         </Grid>
 
                         <!--  Content layouts  -->
-                        <!--  DisplayMode (compact/minimal/normal) left  -->
+                        <!--  Displaymode (compact/minimal/normal) left  -->
                         <SplitView
                             x:Name="RootSplitView"
                             Grid.Row="1"
@@ -802,7 +802,7 @@
                                 <!--  Store: Added Grid.RowDefinitions & Removed Grid.ColumnDefinitions  -->
                                 <Grid.RowDefinitions>
                                     <RowDefinition />
-                                    <RowDefinition />
+                                    <RowDefinition MinHeight="20" />
                                     <RowDefinition Height="Auto" />
                                     <RowDefinition />
                                 </Grid.RowDefinitions>
@@ -1694,3 +1694,4 @@
         </Setter>
     </Style>
 </ResourceDictionary>
+

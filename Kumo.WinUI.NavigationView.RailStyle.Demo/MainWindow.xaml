@@ -25,7 +25,6 @@
 
             <NavigationView.FooterMenuItems>
                 <NavigationViewItem Content="Settings" Icon="Setting" Tag="Settings" />
-                <NavigationViewItem Content="Settings" Icon="Setting" Tag="Settings" />
             </NavigationView.FooterMenuItems>
 
             <NavigationView.Content>
