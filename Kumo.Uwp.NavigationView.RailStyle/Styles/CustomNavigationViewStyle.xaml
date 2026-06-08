@@ -433,7 +433,11 @@
                                                 <controls:ItemsRepeater
                                                     x:Name="MenuItemsHost"
                                                     AutomationProperties.AccessibilityView="Content"
-                                                    AutomationProperties.Name="{TemplateBinding AutomationProperties.Name}" />
+                                                    AutomationProperties.Name="{TemplateBinding AutomationProperties.Name}">
+                                                    <controls:ItemsRepeater.Layout>
+                                                        <controls:StackLayout />
+                                                    </controls:ItemsRepeater.Layout>
+                                                </controls:ItemsRepeater>
                                             </ScrollViewer>
                                         </controls:ItemsRepeaterScrollHost>
 
@@ -449,9 +453,12 @@
                                             <ScrollViewer
                                                 x:Name="FooterItemsScrollViewer"
                                                 VerticalAnchorRatio="1"
-                                                VerticalScrollBarVisibility="Disabled"
-                                                VerticalScrollMode="Disabled">
-                                                <controls:ItemsRepeater x:Name="FooterMenuItemsHost" AutomationProperties.AccessibilityView="Content" />
+                                                VerticalScrollBarVisibility="Auto">
+                                                <controls:ItemsRepeater x:Name="FooterMenuItemsHost" AutomationProperties.AccessibilityView="Content">
+                                                    <controls:ItemsRepeater.Layout>
+                                                        <controls:StackLayout />
+                                                    </controls:ItemsRepeater.Layout>
+                                                </controls:ItemsRepeater>
                                             </ScrollViewer>
                                         </controls:ItemsRepeaterScrollHost>
 
