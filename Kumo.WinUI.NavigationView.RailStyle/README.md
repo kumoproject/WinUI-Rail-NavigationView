@@ -23,4 +23,4 @@ Optional item helpers live in `Kumo.WinUI.NavigationView.RailStyle.Helpers.NavIt
 
 ## Source Notice
 
-`Styles/CustomNavigationViewStyle.xaml` and `Helpers/NavItemIconHelper.cs` are derived from Microsoft PowerToys ShortcutGuide sources at commit `4f14070a1aaf634f0663e51727b3ccf05f62e7cc`, licensed under the MIT License.
+`Styles/CustomNavigationViewStyle.xaml` is derived from Microsoft AI Dev Gallery's `NavigationView.xaml`, licensed under the MIT License.
