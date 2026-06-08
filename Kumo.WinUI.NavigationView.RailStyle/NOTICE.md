@@ -1,4 +1,4 @@
-This package includes code derived from Microsoft AI Dev Gallery.
+﻿This package includes code derived from Microsoft AI Dev Gallery.
 
 Source:
 https://github.com/microsoft/ai-dev-gallery/blob/main/AIDevGallery/Styles/NavigationView.xaml

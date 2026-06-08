@@ -1,4 +1,4 @@
-using Muxc = Microsoft.UI.Xaml.Controls;
+﻿using Muxc = Microsoft.UI.Xaml.Controls;
 
 namespace Kumo.WinUI.NavigationView.RailStyle.Demo;
 

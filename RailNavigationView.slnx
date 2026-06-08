@@ -1,4 +1,4 @@
-<Solution>
+﻿<Solution>
   <Project Path="Kumo.Uwp.NavigationView.RailStyle/Kumo.Uwp.NavigationView.RailStyle.csproj" />
   <Project Path="Kumo.WinUI.NavigationView.RailStyle.Demo/WinUIDemo.csproj">
     <Platform Solution="Debug|*" Project="ARM64" />

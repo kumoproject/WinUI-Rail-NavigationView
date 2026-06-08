@@ -1,4 +1,4 @@
-{
+﻿{
   "profiles": {
     "UwpApp": {
       "commandName": "MsixPackage"

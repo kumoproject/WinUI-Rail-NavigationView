@@ -1,4 +1,4 @@
-# Kumo.WinUI.NavigationView.RailStyle
+﻿# Kumo.WinUI.NavigationView.RailStyle
 
 Rail-style `NavigationView` templates and helper attached properties for WinUI 3.
 
@@ -9,7 +9,7 @@ Merge the resource dictionary after `XamlControlsResources`:
 ```xml
 <ResourceDictionary.MergedDictionaries>
     <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
-    <ResourceDictionary Source="ms-appx:///Kumo.WinUI.NavigationView.RailStyle/Styles/CustomNavigationViewStyle.xaml" />
+    <rail:RailNavigationViewResources xmlns:rail="using:Kumo.WinUI.NavigationView.RailStyle" />
 </ResourceDictionary.MergedDictionaries>
 ```
 
