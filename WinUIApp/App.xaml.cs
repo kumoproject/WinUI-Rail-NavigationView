@@ -1,6 +1,6 @@
 ﻿using Microsoft.UI.Xaml;
 
-namespace Kumo.WinUI.NavigationView.RailStyle.Demo;
+namespace WinUIApp;
 
 public partial class App : Application
 {

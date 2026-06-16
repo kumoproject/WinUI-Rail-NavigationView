@@ -1,6 +1,6 @@
 ﻿using Muxc = Microsoft.UI.Xaml.Controls;
 
-namespace Kumo.WinUI.NavigationView.RailStyle.Demo;
+namespace WinUIApp;
 
 public sealed partial class MainWindow
 {

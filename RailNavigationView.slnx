@@ -6,7 +6,7 @@
     <Platform Solution="Release|*" Project="x64" />
     <Deploy />
   </Project>
-  <Project Path="WinUIDemo/WinUIDemo.csproj">
+  <Project Path="WinUIApp/WinUIApp.csproj">
     <Platform Project="x64" />
   </Project>
 </Solution>
